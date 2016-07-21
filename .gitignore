@@ -1,0 +1,10 @@
+*/RUNNING_PID
+*/logs/
+*/project/*
+*/target/
+*/.idea/*
+*/.settings/*
+*/bin/*
+*/libexec/*
+*/.classpath
+*/.project
