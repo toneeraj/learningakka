@@ -27,8 +27,8 @@ public class AkkademyDb extends AbstractActor {
     //to store the message which this actor receives
     protected final Map<String, Object> map = new HashMap<>();
 
-    private AkkademyDb() {
-        /* provide the behaviour of the actor here. What the actor should do when it receives a SetRequest message
+    public AkkademyDb() {
+        /* provide the behavior of the actor here. What the actor should do when it receives a SetRequest message
         * */
         receive(match(SetRequest.class, message -> {
                     log.info("Received set request – key: {} value: {}", message.getKey(), message.getValue());
